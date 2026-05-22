@@ -1,11 +1,23 @@
 {
-  "name": "@opencode-sync/backend",
-  "version": "0.0.0",
-  "private": true,
+  "name": "opencodedb-backend",
+  "version": "0.1.0",
+  "private": false,
+  "files": [
+    "dist",
+    "convex"
+  ],
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "./dist/src/index.mjs",
+  "types": "./dist/src/index.d.ts",
+  "exports": {
+    ".": "./dist/src/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
+    "build": "tsdown",
     "test": "vitest run"
   },
   "dependencies": {
@@ -13,8 +25,8 @@
     "@convex-dev/action-cache": "^0.3.0",
     "@convex-dev/persistent-text-streaming": "^0.3.0",
     "@mzedstudio/llm-cache": "^0.1.0",
-    "@opencode-sync/types": "workspace:*",
     "convex": "^1.22.0",
+    "opencodedb-types": "workspace:*",
     "zod": "^3.24.0"
   },
   "devDependencies": {

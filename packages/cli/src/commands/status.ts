@@ -2,8 +2,8 @@ import { existsSync, readFileSync } from "node:fs";
 import { homedir } from "node:os";
 import { resolve } from "node:path";
 
-import { SyncConfigSchema } from "@opencode-sync/types";
-import type { SyncConfig } from "@opencode-sync/types";
+import { SyncConfigSchema } from "opencodedb-types";
+import type { SyncConfig } from "opencodedb-types";
 
 import { CliSyncEngine } from "../worker/sync-engine.js";
 

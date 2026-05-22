@@ -1,4 +1,4 @@
-import type { SyncConfig } from "@opencode-sync/types";
+import type { SyncConfig } from "opencodedb-types";
 
 export interface SyncStatus {
   connected: boolean;

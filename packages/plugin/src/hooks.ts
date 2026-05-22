@@ -13,10 +13,10 @@ export function configHook(configManager: ConfigManager) {
       const pluginOpts = Array.isArray(input.plugin) ? input.plugin : [input.plugin];
 
       for (const entry of pluginOpts) {
-        if (typeof entry === "string" && entry.startsWith("@opencode-sync/plugin")) {
+        if (typeof entry === "string" && entry.startsWith("opencodedb-plugin")) {
           continue;
         }
-        if (Array.isArray(entry) && entry[0] === "@opencode-sync/plugin") {
+        if (Array.isArray(entry) && entry[0] === "opencodedb-plugin") {
           const opts = entry[1] as Record<string, unknown> | undefined;
           if (opts?.configPath && typeof opts.configPath === "string") {
             const customManager = new (configManager.constructor as new (

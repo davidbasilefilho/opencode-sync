@@ -1,8 +1,8 @@
 import { existsSync, readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 
-import { SyncConfigSchema } from "@opencode-sync/types";
-import type { SyncConfig } from "@opencode-sync/types";
+import { SyncConfigSchema } from "opencodedb-types";
+import type { SyncConfig } from "opencodedb-types";
 
 /** Manages reading and writing of the local sync configuration file. */
 export class ConfigManager {

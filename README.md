@@ -1,4 +1,4 @@
-# opencode-sync
+# opencodedb
 
 Sync and execution plugin for [OpenCode](https://github.com/opencode-ai/opencode). Provides local-first, crash-resilient multi-device workflows through self-hosted [Convex](https://www.convex.dev/) backends.
 
@@ -6,12 +6,12 @@ Sync and execution plugin for [OpenCode](https://github.com/opencode-ai/opencode
 
 Monorepo with four packages:
 
-| Package                  | Description                                                                                                                                     |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| `@opencode-sync/types`   | Shared Zod schemas and TypeScript types for threads, messages, attachments, machine profiles, and configuration                                 |
-| `@opencode-sync/backend` | Convex backend with persistent text streaming, action caching, LLM response caching, and API key management                                     |
-| `@opencode-sync/plugin`  | OpenCode SDK plugin that hooks into lifecycle events for session sync and local tool delegation                                                 |
-| `@opencode-sync/cli`     | Terminal UI built with OpenTUI -- setup wizard, sync status panel, chat worker, and commands (`link`, `run`, `status`, `divergence-resolution`) |
+| Package              | Description                                                                                                                                     |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| `opencodedb-types`   | Shared Zod schemas and TypeScript types for threads, messages, attachments, machine profiles, and configuration                                 |
+| `opencodedb-backend` | Convex backend with persistent text streaming, action caching, LLM response caching, and API key management                                     |
+| `opencodedb-plugin`  | OpenCode SDK plugin that hooks into lifecycle events for session sync and local tool delegation                                                 |
+| `opencodedb-cli`     | Terminal UI built with OpenTUI -- setup wizard, sync status panel, chat worker, and commands (`link`, `run`, `status`, `divergence-resolution`) |
 
 ## Core Concepts
 

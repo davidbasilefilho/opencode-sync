@@ -1,4 +1,4 @@
-import type { SyncConfig } from "@opencode-sync/types";
+import type { SyncConfig } from "opencodedb-types";
 
 /** Represents a pending mutation that was buffered while offline. */
 export interface PendingMutation {

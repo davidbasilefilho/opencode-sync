@@ -76,7 +76,7 @@ Boundaries: code/commits/PRs written normal.
 
 <!-- PROJECT START -->
 
-# opencode-sync
+# opencodedb
 
 sync layer for opencode.
 
@@ -91,7 +91,6 @@ sync layer for opencode.
 - convex, @convex-dev/
 - turborepo for monorepo management with bun workspaces -> a package for the convex backend, one for the plugin, others if needed.
 
-READ `PROJECT.md` for project description.
 always run `bun run check` before finishing a task. no warnings/errors allowed.
 always check for latest documentation before making changes (context7/websearch).
 must be fully node.js compatible.

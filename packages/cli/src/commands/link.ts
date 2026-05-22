@@ -3,8 +3,8 @@ import { homedir, hostname } from "node:os";
 import { resolve } from "node:path";
 import { platform } from "node:process";
 
-import { SyncConfigSchema } from "@opencode-sync/types";
-import type { SyncConfig } from "@opencode-sync/types";
+import { SyncConfigSchema } from "opencodedb-types";
+import type { SyncConfig } from "opencodedb-types";
 
 const CONFIG_DIR = resolve(homedir(), ".config", "opencode-sync");
 const CONFIG_PATH = resolve(CONFIG_DIR, "config.json");

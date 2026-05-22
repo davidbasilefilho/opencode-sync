@@ -2,7 +2,7 @@ import { mkdirSync, existsSync, rmSync, readFileSync } from "node:fs";
 import { homedir } from "node:os";
 import { resolve } from "node:path";
 
-import type { SyncConfig } from "@opencode-sync/types";
+import type { SyncConfig } from "opencodedb-types";
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
 
 function makeTestConfig(): SyncConfig {

@@ -1,7 +1,7 @@
-import type { SyncConfig } from "@opencode-sync/types";
-import { SyncConfigSchema } from "@opencode-sync/types";
 import { createCliRenderer, Box, Text } from "@opentui/core";
 import { Input } from "@opentui/core";
+import type { SyncConfig } from "opencodedb-types";
+import { SyncConfigSchema } from "opencodedb-types";
 
 interface WizardResult {
   convexUrl: string;
