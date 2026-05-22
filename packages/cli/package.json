@@ -1,6 +1,6 @@
 {
   "name": "opencodedb-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "bin": {
     "opencode-sync": "dist/index.mjs"
