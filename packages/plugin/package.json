@@ -12,6 +12,10 @@
     ".": "./dist/index.mjs",
     "./package.json": "./package.json"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidbasilefilho/opencodedb"
+  },
   "publishConfig": {
     "access": "public"
   },
