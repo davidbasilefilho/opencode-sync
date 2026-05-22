@@ -21,7 +21,8 @@
   },
   "scripts": {
     "build": "tsdown",
-    "test": "vitest run"
+    "test": "vitest run",
+    "publish": "npm publish --provenance --access public"
   },
   "dependencies": {
     "@opencode-ai/plugin": "^1.3.0",

@@ -22,7 +22,8 @@
   },
   "scripts": {
     "build": "tsdown",
-    "test": "vitest run"
+    "test": "vitest run",
+    "publish": "npm publish --provenance --access public"
   },
   "dependencies": {
     "@00akshatsinha00/convex-api-keys": "^0.1.0",
