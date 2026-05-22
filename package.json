@@ -1,0 +1,25 @@
+{
+  "name": "opencode-sync",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "skills:update": "skills update",
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "test": "turbo test",
+    "format": "oxfmt --write",
+    "lint": "oxlint --fix",
+    "check": "bun run --parallel format lint"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.51.0",
+    "oxlint": "^1.66.0",
+    "oxlint-tsgolint": "^0.23.0",
+    "skills": "^1.5.7",
+    "turbo": "^2.5.0",
+    "typescript": "^5.7.0"
+  },
+  "packageManager": "bun@1.4.0"
+}

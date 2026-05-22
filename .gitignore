@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.turbo/
+*.tsbuildinfo
+.env
+.env.local
+convex/_generated/
+
+.agents/
+.claude/
+.omo/
+.sisyphus/
+nul

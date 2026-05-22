@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": ".turbo",
+    "rootDir": "."
+  },
+  "files": [],
+  "references": [
+    { "path": "packages/types" },
+    { "path": "packages/backend" },
+    { "path": "packages/plugin" },
+    { "path": "packages/cli" }
+  ]
+}

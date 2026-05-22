@@ -1,0 +1,16 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "unicorn", "oxc", "import", "jsdoc", "vitest", "promise"],
+  "categories": {
+    "correctness": "error"
+  },
+  "ignorePatterns": ["node_modules/", "dist/", ".turbo/"],
+  "rules": {},
+  "options": {
+    "typeAware": true,
+    "typeCheck": true
+  },
+  "env": {
+    "builtin": true
+  }
+}
