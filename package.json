@@ -11,7 +11,7 @@
     "test": "turbo test",
     "format": "oxfmt --write",
     "lint": "oxlint --fix",
-    "publish": "npm publish --workspaces --provenance --access public",
+    "publish": "node scripts/publish.mjs",
     "check": "bun run --parallel format lint"
   },
   "devDependencies": {
