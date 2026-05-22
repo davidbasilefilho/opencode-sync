@@ -11,10 +11,6 @@
       "inputs": ["src/**", "tests/**"],
       "outputs": []
     },
-    "publish": {
-      "dependsOn": ["^build"],
-      "cache": false
-    },
     "dev": {
       "cache": false,
       "persistent": true

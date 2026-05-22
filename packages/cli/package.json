@@ -1,6 +1,6 @@
 {
   "name": "opencodedb-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "bin": {
     "opencode-sync": "dist/index.mjs"
@@ -24,8 +24,7 @@
   },
   "scripts": {
     "build": "tsdown",
-    "test": "vitest run",
-    "publish": "npm publish --provenance --access public"
+    "test": "vitest run"
   },
   "dependencies": {
     "@opentui/core": "^0.1.0",

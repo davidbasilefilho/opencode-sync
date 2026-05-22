@@ -1,6 +1,6 @@
 {
   "name": "opencodedb-types",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "files": [
     "dist"
@@ -21,8 +21,7 @@
   },
   "scripts": {
     "build": "tsdown",
-    "test": "vitest run",
-    "publish": "npm publish --provenance --access public"
+    "test": "vitest run"
   },
   "dependencies": {
     "zod": "^3.24.0"
