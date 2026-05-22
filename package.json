@@ -11,6 +11,7 @@
     "test": "turbo test",
     "format": "oxfmt --write",
     "lint": "oxlint --fix",
+    "publish": "turbo publish",
     "check": "bun run --parallel format lint"
   },
   "devDependencies": {

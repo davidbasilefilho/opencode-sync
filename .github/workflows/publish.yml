@@ -22,4 +22,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - run: bun install --frozen-lockfile
       - run: bun run build
-      - run: bun run --parallel publish
+      - run: bun run publish
