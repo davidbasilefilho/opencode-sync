@@ -21,4 +21,9 @@ jobs:
           cache: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - run: bun install --frozen-lockfile
-      - run: npm publish --workspaces --provenance --access public
+      - run: bun run build
+      - run: |
+          npm publish -w packages/types --provenance --access public
+          npm publish -w packages/plugin --provenance --access public
+          npm publish -w packages/backend --provenance --access public
+          npm publish -w packages/cli --provenance --access public
